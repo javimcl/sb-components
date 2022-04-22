@@ -12,3 +12,10 @@ Pegar la carpeta storybook-static
 
 https://app.netlify.com/sites/creative-starlight-6c2d57/overview
 
+
+
+PAges en git
+
+repositorio -> settings -> pages -> seleccion /docs y guardar
+
+https://javimcl.github.io/sb-components/?path=/story/example-introduction--page
