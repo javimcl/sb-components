@@ -19,3 +19,13 @@ PAges en git
 repositorio -> settings -> pages -> seleccion /docs y guardar
 
 https://javimcl.github.io/sb-components/?path=/story/example-introduction--page
+
+
+
+chromatic
+
+https://www.chromatic.com/
+
+yarn add --dev chromatic
+
+npx chromatic --project-token=f4b4af01157a

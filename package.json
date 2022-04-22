@@ -4,7 +4,7 @@
   "private": false,
   "license": "MIT",
   "main": "dist/index.js",
-  "typings": "dist/index.d.ts",  
+  "typings": "dist/index.d.ts",
   "peerDependencies": {
     "react": ">=16"
   },
@@ -36,7 +36,7 @@
     "build": "yarn clean && tsc && yarn copy-files",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token=b53333a09638",
+    "chromatic": "npx chromatic --project-token=f4b4af01157a",
     "clean": "rimraf dist/",
     "copy-files": "copyfiles -u 1 src/**/*.css dist/"
   },
@@ -66,18 +66,18 @@
     "@storybook/addon-postcss": "^2.0.0",
     "@storybook/react": "^6.3.12",
     "babel-loader": "^8.2.2",
-    "chromatic": "^6.0.4",
+    "chromatic": "^6.5.4",
     "copyfiles": "^2.4.1",
     "css-loader": "^6.4.0",
     "rimraf": "^3.0.2",
     "semantic-release": "^18.0.0"
   },
   "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/changelog",
-      "@semantic-release/github",
-      "@semantic-release/npm",
-      "@semantic-release/git"
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/github",
+    "@semantic-release/npm",
+    "@semantic-release/git"
   ]
 }
