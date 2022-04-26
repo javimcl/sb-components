@@ -32,3 +32,6 @@ npx chromatic --project-token=f4b4af01157a
 
 
 npm i rimraf
+#desplegar en git actions
+git commit -m "feat: github actions configurado"
+git push
