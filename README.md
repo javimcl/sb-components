@@ -29,3 +29,6 @@ https://www.chromatic.com/
 yarn add --dev chromatic
 
 npx chromatic --project-token=f4b4af01157a
+
+
+npm i rimraf

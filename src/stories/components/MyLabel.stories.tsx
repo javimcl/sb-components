@@ -12,7 +12,7 @@ export default {
     }
 } as ComponentMeta<typeof MyLabel>
 
-const Template: ComponentStory<typeof MyLabel> = (args) => <MyLabel {...args}/>
+const Template: ComponentStory<typeof MyLabel> = (args: any) => <MyLabel {...args}/>
 
 
 export const Basic = Template.bind({});
