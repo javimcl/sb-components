@@ -35,8 +35,8 @@ jobs:
 
       - name: Semantic Release
         env:
-          GT_JAVIMCL_TOKEN: ${{ secrets.GT_JAVIMCL_TOKEN}}
-          NPM_JAVIMCL_TOKEN: ${{ secrets.NPM_JAVIMCL_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.GT_JAVIMCL_TOKEN}}
+          NPM_TOKEN: ${{ secrets.NPM_JAVIMCL_TOKEN}}
         run: npx semantic-release
 
       # Runs a set of commands using the runners shell
